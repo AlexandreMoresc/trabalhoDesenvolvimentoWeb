@@ -1,78 +1,79 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9f7fa;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #333;
+  color: #2c3e50;
 }
 
 .container {
-  background: #153add9f;
-  padding: 25px 35px;
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background: #2c3e50;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   text-align: center;
-  width: 400px;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  width: 420px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  font-size: 26px;
-  margin-bottom: 25px;
-  color: #0056b3;
-  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #16a085;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
 label {
   display: block;
-  margin: 15px 0 8px;
+  margin: 18px 0 10px;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
-  color: #555;
+  color: #34495e;
 }
 
 input, select {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
+  padding: 12px;
+  margin-bottom: 18px;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 8px;
   box-sizing: border-box;
-  font-size: 14px;
-  color: #555;
+  font-size: 16px;
+  color: #34495e;
   transition: border-color 0.3s ease;
 }
 
 input:focus, select:focus {
-  border-color: #007bff;
+  border-color: #1abc9c;
   outline: none;
 }
 
 button {
-  background-color: red;
+  background-color: #1abc9c;
   color: white;
   border: none;
-  padding: 12px 18px;
+  padding: 14px 20px;
   cursor: pointer;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-  background-color: #333;
-  transform: translateY(-2px);
+  background-color: #16a085;
+  transform: translateY(-4px);
 }
 
 button:active {
@@ -80,28 +81,28 @@ button:active {
 }
 
 #resultado {
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 22px;
+  font-size: 22px;
   font-weight: bold;
-  color: #28a745;
+  color: #2ecc71;
 }
 
 .buttons {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
 }
 
 #historico {
-  margin-top: 25px;
+  margin-top: 30px;
   text-align: left;
 }
 
 #historico h2 {
-  font-size: 18px;
-  color: #333;
+  font-size: 20px;
+  color: #2c3e50;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 #listaHistorico {
@@ -110,15 +111,15 @@ button:active {
 }
 
 #listaHistorico li {
-  background: #f9fafc;
-  margin: 8px 0;
-  padding: 12px;
-  border-radius: 6px;
-  border: 1px solid #ddd;
+  background: #ecf0f1;
+  margin: 10px 0;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #bdc3c7;
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 #listaHistorico li:hover {
-  background-color: #f1f3f5;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #d5dbdb;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
